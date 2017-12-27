@@ -1,6 +1,9 @@
 /*
-  Fade
-
+ * Author: Mirko Ivanic
+ * Date: 27/12/2017
+ * Program: VW GTI Remote controled car toy
+ * Purpose: Main loop of sowtare
+  
   This example shows how to fade an LED on pin 9 using the analogWrite()
   function.
 
