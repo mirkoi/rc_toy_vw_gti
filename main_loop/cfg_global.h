@@ -1,0 +1,21 @@
+#ifndef CFG_GLOBAL_H
+#define CFG_GLOBAL_H
+
+/* PWM duticycle setup */
+#define PWM_OFF 0
+#define PWM_MAX_DUTYCYCLE_REAR_MOTOR 255
+#define PWM_MIN_DUTYCYCLE_REAR_MOTOR 0
+#define PWM_DUTYCYCLE_REAR_MOTOR 60
+
+#define PWM_MAX_DUTYCYCLE_FRONT_MOTOR 255
+#define PWM_MIN_DUTYCYCLE_FRONT_MOTOR 0
+#define PWM_DUTYCYCLE_FRONT_MOTOR 60
+
+/* Declare PWM pins */
+#define PWM_1_PIN_REAR_MOTOR    9
+#define PWM_2_PIN_REAR_MOTOR    10
+
+#define PWM_1_PIN_FRONT_MOTOR   5
+#define PWM_2_PIN_FRONT_MOTOR   6
+
+#endif //CFG_GLOBAL_H
